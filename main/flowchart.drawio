@@ -5,194 +5,209 @@
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="Nz6fT7AhWqHLtQupdt49-3" value="Ask question number ()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-                    <mxGeometry x="340" y="506" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="300" y="600.1544050862852" width="224.00000000000003" height="71.38964577656677" as="geometry"/>
                 </mxCell>
                 <mxCell id="Nz6fT7AhWqHLtQupdt49-6" value="START" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="340" y="10" width="120" height="40" as="geometry"/>
+                    <mxGeometry x="300" y="10" width="224.00000000000003" height="47.59309718437783" as="geometry"/>
                 </mxCell>
                 <mxCell id="Nz6fT7AhWqHLtQupdt49-7" value="END" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="360" y="1031" width="120" height="80" as="geometry"/>
+                    <mxGeometry x="318.66333333333336" y="1221.8138056312443" width="224.00000000000003" height="95.18619436875566" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="correct?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="335" y="586" width="130" height="80" as="geometry"/>
+                    <mxGeometry x="290.6666666666667" y="695.3405994550409" width="242.66666666666669" height="95.18619436875566" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="400" y="53" as="sourcePoint"/>
-                        <mxPoint x="400" y="83" as="targetPoint"/>
+                        <mxPoint x="412.00000000000006" y="61.16257947320618" as="sourcePoint"/>
+                        <mxPoint x="412.00000000000006" y="96.85740236148956" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="400" y="43"/>
-                            <mxPoint x="400" y="53"/>
+                            <mxPoint x="412.00000000000006" y="49.264305177111716"/>
+                            <mxPoint x="412.00000000000006" y="61.16257947320618"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="5" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Nz6fT7AhWqHLtQupdt49-3" target="2" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="410" y="568" as="sourcePoint"/>
-                        <mxPoint x="410" y="598" as="targetPoint"/>
+                        <mxPoint x="430.6666666666667" y="673.9237057220708" as="sourcePoint"/>
+                        <mxPoint x="430.6666666666667" y="709.6185286103541" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="400" y="568"/>
+                            <mxPoint x="412.00000000000006" y="673.9237057220708"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="8" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="460" y="586" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="524" y="695.3405994550409" width="112.00000000000001" height="35.69482288828338" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" edge="1" target="18">
+                <mxCell id="13" value="" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="18" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="520" y="641" as="targetPoint"/>
+                        <mxPoint x="636.0000000000001" y="760.7811080835604" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="560" y="626"/>
+                            <mxPoint x="710.6666666666667" y="742.9336966394187"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="14" value="Set score to 0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="340" y="80" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="300" y="93.28792007266121" width="224.00000000000003" height="71.38964577656677" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="401" y="141" as="sourcePoint"/>
-                        <mxPoint x="401" y="161" as="targetPoint"/>
+                        <mxPoint x="413.8666666666667" y="165.86739327883743" as="sourcePoint"/>
+                        <mxPoint x="413.8666666666667" y="189.6639418710263" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="401" y="143"/>
+                            <mxPoint x="413.8666666666667" y="168.24704813805633"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="17" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="340" y="686" width="60" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="31" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="18" target="30">
-                    <mxGeometry relative="1" as="geometry"/>
+                    <mxGeometry x="300" y="814.3233424159854" width="112.00000000000001" height="35.69482288828338" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="score += 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="510" y="641" width="90" height="30" as="geometry"/>
+                    <mxGeometry x="617.3333333333334" y="760.7811080835604" width="168" height="35.69482288828338" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="399.5" y="656" as="sourcePoint"/>
-                        <mxPoint x="399.5" y="736" as="targetPoint"/>
+                        <mxPoint x="411" y="790" as="sourcePoint"/>
+                        <mxPoint x="411.06666666666666" y="873.8147138964576" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="28" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="20" target="27">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
                 <mxCell id="20" value="wrong! your score is still score" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-                    <mxGeometry x="340" y="736" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="300" y="873.8147138964576" width="224.00000000000003" height="71.38964577656677" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="520" y="751" as="sourcePoint"/>
-                        <mxPoint x="480" y="851" as="targetPoint"/>
+                        <mxPoint x="636.0000000000001" y="973.7602179836513" as="sourcePoint"/>
+                        <mxPoint x="561.3333333333334" y="1010.6448683015441" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="520" y="851"/>
+                            <mxPoint x="636.0000000000001" y="1010.6448683015441"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="23" value="type up all the questions and store in separate variables." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="340" y="161" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="300" y="189.6639418710263" width="224.00000000000003" height="71.38964577656677" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="401" y="304" as="sourcePoint"/>
-                        <mxPoint x="401" y="324" as="targetPoint"/>
+                        <mxPoint x="413.8666666666667" y="359.80926430517707" as="sourcePoint"/>
+                        <mxPoint x="413.8666666666667" y="383.60581289736604" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="401" y="306"/>
+                            <mxPoint x="413.8666666666667" y="362.188919164396"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="25" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="400" y="221" as="sourcePoint"/>
-                        <mxPoint x="400" y="241" as="targetPoint"/>
+                        <mxPoint x="412.00000000000006" y="261.0535876475931" as="sourcePoint"/>
+                        <mxPoint x="412.00000000000006" y="284.85013623978205" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="400" y="223"/>
+                            <mxPoint x="412.00000000000006" y="263.433242506812"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="26" value="make a list of all questions. store in variable." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="341" y="242" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="301.8666666666667" y="286.0399636693915" width="224.00000000000003" height="71.38964577656677" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
-                    <mxGeometry x="380" y="796" width="40" height="40" as="geometry"/>
+                <mxCell id="27" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" parent="1" vertex="1">
+                    <mxGeometry x="391.9966666666667" y="960.0043596730244" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="Correct! your score is now score" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="480" y="691" width="150" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="33" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="32" target="Nz6fT7AhWqHLtQupdt49-3">
+                <mxCell id="28" value="" style="edgeStyle=none;html=1;" parent="1" source="20" target="27" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="While questions =&amp;gt; 0:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="341" y="425" width="120" height="60" as="geometry"/>
+                <mxCell id="30" value="Correct! your score is now score" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="561.3333333333334" y="820.2724795640327" width="280" height="71.38964577656677" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="34" target="Nz6fT7AhWqHLtQupdt49-3">
+                <mxCell id="31" value="" style="edgeStyle=none;html=1;" parent="1" source="18" target="30" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="32" target="Nz6fT7AhWqHLtQupdt49-3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="While questions &amp;gt;= 1 and questions &amp;lt;=12:" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="301.8666666666667" y="503.77838328792006" width="224.00000000000003" height="71.38964577656677" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="34" target="Nz6fT7AhWqHLtQupdt49-3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="270" y="851"/>
-                            <mxPoint x="270" y="524"/>
+                            <mxPoint x="169.33333333333334" y="1010.6448683015441"/>
+                            <mxPoint x="169.33333333333334" y="621.5712988192553"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="42" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="34" target="41">
+                <mxCell id="34" value="more questions?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="337.33333333333337" y="974.9500454132607" width="224.00000000000003" height="71.38964577656677" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="206.66666666666669" y="974.9500454132607" width="112.00000000000001" height="35.69482288828338" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="34" target="47" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="more questions?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="360" y="821" width="120" height="60" as="geometry"/>
+                <mxCell id="43" value="noo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="458.66666666666674" y="1058.237965485922" width="112.00000000000001" height="35.69482288828338" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="290" y="821" width="60" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="41" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="400" y="911" width="40" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="43" value="noo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="425" y="891" width="60" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="56" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" target="55">
+                <mxCell id="56" value="" style="edgeStyle=none;html=1;" parent="1" target="55" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="250" y="991" as="sourcePoint"/>
+                        <mxPoint x="132" y="1177.2207084468664" as="sourcePoint"/>
                         <Array as="points">
-                            <mxPoint x="250" y="1071"/>
+                            <mxPoint x="132" y="1272.4069028156223"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="46" value="Congrats! you got {}/12 points! Veggietales will always have a place in your heart." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="190" y="964" width="120" height="60" as="geometry"/>
+                <mxCell id="46" value="Congrats! you got {}/12 points! Veggietales is happy with you." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="1145.0953678474116" width="224.00000000000003" height="71.38964577656677" as="geometry"/>
                 </mxCell>
-                <mxCell id="49" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="47" target="48">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="51" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="47">
+                <mxCell id="51" value="" style="edgeStyle=none;html=1;" parent="1" source="47" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="300" y="961" as="targetPoint"/>
+                        <mxPoint x="225.33333333333334" y="1141.525885558583" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="47" value="is score =&amp;gt;4?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="360" y="931" width="120" height="60" as="geometry"/>
+                <mxCell id="47" value="is score =&amp;gt;4?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="337.33333333333337" y="1105.8310626702998" width="224.00000000000003" height="71.38964577656677" as="geometry"/>
                 </mxCell>
-                <mxCell id="48" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="510" y="941" width="40" height="40" as="geometry"/>
+                <mxCell id="48" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="617.3333333333334" y="1117.7293369663942" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="50" target="53">
+                <mxCell id="49" value="" style="edgeStyle=none;html=1;" parent="1" source="47" target="48" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Congrats! you got {}/12 points! Have a good day. :)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="636.0000000000001" y="1105.8310626702998" width="224.00000000000003" height="71.38964577656677" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" parent="1" vertex="1">
+                    <mxGeometry x="524" y="1248.6103542234332" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="" style="edgeStyle=none;html=1;" parent="1" source="50" target="53" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="580" y="1071"/>
+                            <mxPoint x="748" y="1272.4069028156223"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="50" value="Congrats! you got {}/12 points! Have a good day. :)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="520" y="931" width="120" height="60" as="geometry"/>
+                <mxCell id="55" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="1248.6103542234332" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="53" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
-                    <mxGeometry x="460" y="1051" width="40" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="55" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
-                    <mxGeometry x="340" y="1051" width="40" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="59" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="57" target="32">
+                <mxCell id="59" value="" style="edgeStyle=none;html=1;" parent="1" source="57" target="32" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" value="And now it's time for the veggitales quiz, the part of your day when you test your knowledge of veggietales.(Not the reboot) Welcome." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="316" y="320" width="170" height="80" as="geometry"/>
+                <mxCell id="57" value="And now it's time for the veggitales quiz, the part of your day when you test your knowledge of veggietales.(Not the reboot) Welcome." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="255.20000000000002" y="378.8465031789283" width="317.33333333333337" height="95.18619436875566" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+                    <mxGeometry x="664" y="885.7129881925522" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="30" target="60">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="increment questions += 1" style="whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="584.6666666666667" y="926.1671207992733" width="233.33333333333334" height="47.59309718437783" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="60" target="62">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="561.3333333333334" y="1104.6412352406903" width="112.00000000000001" height="35.69482288828338" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="206.66666666666669" y="1105.8310626702998" width="112.00000000000001" height="35.69482288828338" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
