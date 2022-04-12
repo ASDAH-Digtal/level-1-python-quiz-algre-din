@@ -42,7 +42,7 @@
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="636.0000000000001" y="760.7811080835604" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="710.6666666666667" y="742.9336966394187"/>
+                            <mxPoint x="701" y="743"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -191,22 +191,19 @@
                 <mxCell id="57" value="And now it's time for the veggitales quiz, the part of your day when you test your knowledge of veggietales.(Not the reboot) Welcome." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="255.20000000000002" y="378.8465031789283" width="317.33333333333337" height="95.18619436875566" as="geometry"/>
                 </mxCell>
-                <mxCell id="60" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
-                    <mxGeometry x="664" y="885.7129881925522" width="40" height="40" as="geometry"/>
+                <mxCell id="60" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" parent="1" vertex="1">
+                    <mxGeometry x="681.33" y="873.8129881925522" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="61" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="30" target="60">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="62" value="increment questions += 1" style="whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="1">
+                <mxCell id="62" value="increment questions += 1" style="whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
                     <mxGeometry x="584.6666666666667" y="926.1671207992733" width="233.33333333333334" height="47.59309718437783" as="geometry"/>
                 </mxCell>
-                <mxCell id="63" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="60" target="62">
+                <mxCell id="63" value="" style="edgeStyle=none;html=1;" parent="1" source="60" target="62" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="64" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="64" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="561.3333333333334" y="1104.6412352406903" width="112.00000000000001" height="35.69482288828338" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="65" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="206.66666666666669" y="1105.8310626702998" width="112.00000000000001" height="35.69482288828338" as="geometry"/>
                 </mxCell>
             </root>
