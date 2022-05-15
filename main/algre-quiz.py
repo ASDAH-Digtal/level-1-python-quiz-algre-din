@@ -17,19 +17,20 @@ question_prompts = [
 ]
 
 questions = [
-    Question(question_prompts[0], "B"),
-    Question(question_prompts[1], "A"),
-    Question(question_prompts[2], "B"),
-    Question(question_prompts[3], "C"),
-    Question(question_prompts[4], "B"),
-    Question(question_prompts[5], "A"),
-    Question(question_prompts[6], "A"),
-    Question(question_prompts[7], "D"),
-    Question(question_prompts[8], "D"),
-    Question(question_prompts[9], "D"),
-    Question(question_prompts[10], "B"),
-    Question(question_prompts[11], "A"),
+    Question(question_prompts[0], "B", ["A", "C", "D"]),
+    Question(question_prompts[1], "A", ["B", "C", "D"]),
+    Question(question_prompts[2], "B", ["A", "C", "D"]),
+    Question(question_prompts[3], "C", ["A", "B", "D"]),
+    Question(question_prompts[4], "B", ["A", "C", "D"]),
+    Question(question_prompts[5], "A", ["B", "C", "D"]),
+    Question(question_prompts[6], "A", ["B", "C", "D"]),
+    Question(question_prompts[7], "D", ["A", "C", "B"]),
+    Question(question_prompts[8], "D", ["A", "C", "B"]),
+    Question(question_prompts[9], "D", ["A", "C", "B"]),
+    Question(question_prompts[10], "B", ["A", "C", "D"]),
+    Question(question_prompts[11], "A", ["B", "C", "D"]),
 ]
+
 print("And now it's time for the veggietales quiz, the part of your day when you test your knowledge of veggietales(Not the reboot). Welcome.")
 
 def run_test(questions):
@@ -38,9 +39,15 @@ def run_test(questions):
         answer = input(question.prompt)
         if answer == (question.answer):
             score += 1
-            print("Correct! your score is now " + str(score))
+            print("\nCorrect! your score is now " + str(score) + "\n")
+        elif answer in (question.test):
+            print("\nWrong! Your score is still {}.\n" .format(score))
         else: 
-            print("Either you didn't type your answer correctly or you just got the question Wrong! Your score is still " + str(score))
+          i = (0,3)
+          while answer != question.answer or answer != question.test and i <= 3: 
+            print("\nThat's not an option! Try again.\n")
+            i += 1
+
 
     print("And so the quiz is done now it is time to see if you are one who keeps VeggieTales memories.") 
 
