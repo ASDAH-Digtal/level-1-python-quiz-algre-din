@@ -1,4 +1,5 @@
 from operator import truediv
+#importing the Question folder
 from Question import Question
 
 question_prompts = [
@@ -15,7 +16,7 @@ question_prompts = [
     "11. Who played the angel in Gideon the Tuba Warrior?\nA Petunia\nB Pa Grape\nC Madame Blueberry\nD Archibald\nPLEASE TYPE JUST THE LETTER IN CAPS e.g. A >>",
     "12. How did Toto (Junior) save the land of Woe in Lord of the Beans?\nA He tosses the bean into the dry well.\nB He fights off all the sporks.\nC He sells grape soda to all the people in town.\nD He wishes for eternal riches and gives a portion to each veggie in the land.\nPLEASE TYPE JUST THE LETTER IN CAPS e.g. A >>",
 ]
-
+#Setting the questions, the right answers and tha wrong answers.
 questions = [
     Question(question_prompts[0], "B", ["A", "C", "D"]),
     Question(question_prompts[1], "A", ["B", "C", "D"]),
@@ -42,19 +43,20 @@ def run_test(questions):
             print("\nCorrect! your score is now " + str(score) + "\n")
         elif answer in (question.test):
             print("\nWrong! Your score is still {}.\n" .format(score))
-        else: 
-          i = (0,3)
-          while answer != question.answer or answer != question.test and i <= 3: 
-            print("\nThat's not an option! Try again.\n")
-            i += 1
+        else:
+            while answer != question.answer or answer not in question.test:
+                print("\nThat's not an option! Try again.\n")
+                answer = input(question.prompt)
 
 
-    print("And so the quiz is done now it is time to see if you are one who keeps VeggieTales memories.") 
-
+    print("Our quiz is done! Let's see what you got...")
+    #Deciding what to tell them depending on their end score.
     if score >= 0 and score <= 4: 
-        print("You got" + str(score) + "/12 points. Well, I guess VeggieTales isn’t everyone’s cup o’ tea.") 
-    elif score > 4 and score <= 12: 
-        print("You got " + str(score) + "/12 points. Niice, another rooter for VeggieTales.")
+        print("You got" + str(score) + "/12 points. Well, I guess VeggieTales isn’t everyone’s cup of tea.") 
+    elif score > 4 and score <= 7: 
+        print("You got " + str(score) + "/12 points. Maybe you'd still rather have a coffee?")
+    else:
+        print("You got " + str(score) + "/12 points. This is your tea!.")
 
     print("That’s all the time we have for today kids. Just remember, God made you special, and he loves you very much. Goodbye!") 
 
