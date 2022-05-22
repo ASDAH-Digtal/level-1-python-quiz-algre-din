@@ -18,18 +18,18 @@ question_prompts = [
 ]
 #Setting the questions, the right answers and tha wrong answers.
 questions = [
-    Question(question_prompts[0], ["B", "b"], ["A", "C", "D"]),
-    Question(question_prompts[1], ["A", "a"], ["B", "C", "D"]),
-    Question(question_prompts[2], ["B", "b"], ["A", "C", "D"]),
-    Question(question_prompts[3], ["C", "c"], ["A", "B", "D"]),
-    Question(question_prompts[4], ["B", "b"], ["A", "C", "D"]),
-    Question(question_prompts[5], ["A", "a"], ["B", "C", "D"]),
-    Question(question_prompts[6], ["A", "a"], ["B", "C", "D"]),
-    Question(question_prompts[7], ["D", "d"], ["A", "C", "B"]),
-    Question(question_prompts[8], ["D", "d"], ["A", "C", "B"]),
-    Question(question_prompts[9], ["D", "d"], ["A", "C", "B"]),
-    Question(question_prompts[10], ["B", "b"], ["A", "C", "D"]),
-    Question(question_prompts[11], ["A", "a"], ["B", "C", "D"]),
+    Question(question_prompts[0], ["B", "b"], [["A", "a"], ["c","C"], ["d","D"]]),
+    Question(question_prompts[1], ["A", "a"], [["B", "b"], ["c","C"], ["d","D"]]),
+    Question(question_prompts[2], ["B", "b"], [["A", "a"], ["c","C"], ["d","D"]]),
+    Question(question_prompts[3], ["C", "c"], [["B", "b"], ["a","A"], ["d","D"]]),
+    Question(question_prompts[4], ["B", "b"], [["A", "a"], ["c","C"], ["d","D"]]),
+    Question(question_prompts[5], ["A", "a"], [["B", "b"], ["c","C"], ["d","D"]]),
+    Question(question_prompts[6], ["A", "a"], [["B", "b"], ["c","C"], ["d","D"]]),
+    Question(question_prompts[7], ["D", "d"], [["B", "b"], ["c","C"], ["a","A"]]),
+    Question(question_prompts[8], ["D", "d"], [["B", "b"], ["c","C"], ["a","A"]]),
+    Question(question_prompts[9], ["D", "d"], [["B", "b"], ["c","C"], ["a","A"]]),
+    Question(question_prompts[10], ["B", "b"], [["A", "a"], ["c","C"], ["d","D"]]),
+    Question(question_prompts[11], ["A", "a"], [["B", "b"], ["c","C"], ["d","D"]]),
 ]
 
 print("And now it's time for the veggietales quiz, the part of your day when you test your knowledge of veggietales(Not the reboot). Welcome.")
