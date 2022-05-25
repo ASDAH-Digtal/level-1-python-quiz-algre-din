@@ -18,35 +18,39 @@ question_prompts = [
 ]
 #Setting the questions, the right answers and tha wrong answers.
 questions = [
-    Question(question_prompts[0], ["B", "b"], [["A", "a"], ["c","C"], ["d","D"]]),
-    Question(question_prompts[1], ["A", "a"], [["B", "b"], ["c","C"], ["d","D"]]),
-    Question(question_prompts[2], ["B", "b"], [["A", "a"], ["c","C"], ["d","D"]]),
-    Question(question_prompts[3], ["C", "c"], [["B", "b"], ["a","A"], ["d","D"]]),
-    Question(question_prompts[4], ["B", "b"], [["A", "a"], ["c","C"], ["d","D"]]),
-    Question(question_prompts[5], ["A", "a"], [["B", "b"], ["c","C"], ["d","D"]]),
-    Question(question_prompts[6], ["A", "a"], [["B", "b"], ["c","C"], ["d","D"]]),
-    Question(question_prompts[7], ["D", "d"], [["B", "b"], ["c","C"], ["a","A"]]),
-    Question(question_prompts[8], ["D", "d"], [["B", "b"], ["c","C"], ["a","A"]]),
-    Question(question_prompts[9], ["D", "d"], [["B", "b"], ["c","C"], ["a","A"]]),
-    Question(question_prompts[10], ["B", "b"], [["A", "a"], ["c","C"], ["d","D"]]),
-    Question(question_prompts[11], ["A", "a"], [["B", "b"], ["c","C"], ["d","D"]]),
+    Question(question_prompts[0], ["B", "b"], ["A", "a","c","C","d","D"]),
+    Question(question_prompts[1], ["A", "a"], ["B", "b","c","C","d","D"]),
+    Question(question_prompts[2], ["B", "b"], ["A", "a","c","C","d","D"]),
+    Question(question_prompts[3], ["C", "c"], ["B", "b","a","A","d","D"]),
+    Question(question_prompts[4], ["B", "b"], ["A", "a","c","C","d","D"]),
+    Question(question_prompts[5], ["A", "a"], ["B", "b","c","C","d","D"]),
+    Question(question_prompts[6], ["A", "a"], ["B", "b","c","C","d","D"]),
+    Question(question_prompts[7], ["D", "d"], ["B", "b","c","C","a","A"]),
+    Question(question_prompts[8], ["D", "d"], ["B", "b","c","C","a","A"]),
+    Question(question_prompts[9], ["D", "d"], ["B", "b","c","C","a","A"]),
+    Question(question_prompts[10], ["B", "b"], ["A", "a","c","C","d","D"]),
+    Question(question_prompts[11], ["A", "a"], ["B", "b","c","C","d","D"]),
 ]
 
 print("And now it's time for the veggietales quiz, the part of your day when you test your knowledge of veggietales(Not the reboot). Welcome.")
 
 def run_test(questions):
     score = 0
-    for question in questions:
-        answer = input(question.prompt)
-        if answer in (question.answer):
-            score += 1
-            print("\nCorrect! your score is now " + str(score) + "\n")
-        elif answer in (question.test):
-            print("\nWrong! Your score is still {}.\n" .format(score))
-        else:
-            while answer not in question.answer or answer not in question.test:
-                print("\nThat's not an option! Try again.\n")
-                answer = input(question.prompt)
+    continuing = True
+    while(continuing):
+        for question in questions:
+            answer = input(question.prompt)
+            if answer in (question.answer):
+                score += 1
+                print("\nCorrect! your score is now " + str(score) + "\n")
+                continuing = False
+            elif answer in (question.test):
+                print("\nWrong! Your score is still {}.\n" .format(score))
+                continuing = False
+            else:
+                # while answer not in question.answer or answer not in question.test:
+                    print("\nThat's not an option! Try again.\n")
+                    answer = input(question.prompt)
 
 
     print("Our quiz is done! Let's see what you got...")
