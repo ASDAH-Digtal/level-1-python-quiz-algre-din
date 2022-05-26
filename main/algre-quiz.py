@@ -48,20 +48,20 @@ def run_test(questions):
                 print("\nWrong! Your score is still {}.\n" .format(score))
                 continuing = False
             else:
-                # while answer not in question.answer or answer not in question.test:
-                    print("\nThat's not an option! Try again.\n")
-                    answer = input(question.prompt)
+                #while answer not in question.answer or answer not in question.test:-didn't work
+                print("\nThat's not an option! Try again.\n")
+                break#-doesn't work but Idk what else to do :(
+                #answer = input(question.prompt)#-didn't work
 
-
-    print("Our quiz is done! Let's see what you got...")
+    print("Our quiz is done! Let's see what you got...\n")
     #Deciding what to tell them depending on their end score.
     if score >= 0 and score <= 4: 
-        print("You got" + str(score) + "/12 points. Well, I guess VeggieTales isn’t everyone’s cup of tea.") 
+        print("You got " + str(score) + "/12 points. Well, I guess VeggieTales isn’t everyone’s cup of tea.\n") 
     elif score > 4 and score <= 7: 
-        print("You got " + str(score) + "/12 points. Maybe you'd still rather have a coffee?")
+        print("You got " + str(score) + "/12 points. Maybe you'd still rather have a coffee?\n")
     else:
-        print("You got " + str(score) + "/12 points. This is your tea!.")
+        print("You got " + str(score) + "/12 points. This is your tea!.\n")
 
-    print("That’s all the time we have for today kids. Just remember, God made you special, and he loves you very much. Goodbye!") 
+    print("That’s all the time we have for today kids. Just remember, God made you special, and he loves you very much. Goodbye!\n") 
 
 run_test(questions)
