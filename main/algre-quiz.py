@@ -16,7 +16,7 @@ question_prompts = [
     "11. Who played the angel in Gideon the Tuba Warrior?\nA Petunia\nB Pa Grape\nC Madame Blueberry\nD Archibald\nPLEASE TYPE JUST THE LETTER e.g. A >>",
     "12. How did Toto (Junior) save the land of Woe in Lord of the Beans?\nA He tosses the bean into the dry well.\nB He fights off all the sporks.\nC He sells grape soda to all the people in town.\nD He wishes for eternal riches and gives a portion to each veggie in the land.\nPLEASE TYPE JUST THE LETTER e.g. A >>",
 ]
-#Setting the questions, the right answers and tha wrong answers.
+#Setting the questions, the right answers and the wrong answers.
 questions = [
     Question(question_prompts[0], ["B", "b"], ["A", "a","c","C","d","D"]),
     Question(question_prompts[1], ["A", "a"], ["B", "b","c","C","d","D"]),
@@ -36,9 +36,11 @@ print("And now it's time for the veggietales quiz, the part of your day when you
 
 def run_test(questions):
     score = 0
-    continuing = True
-    while(continuing):
-        for question in questions:
+    
+    for question in questions:
+        
+        continuing = True
+        while(continuing):
             answer = input(question.prompt)
             if answer in (question.answer):
                 score += 1
@@ -48,19 +50,19 @@ def run_test(questions):
                 print("\nWrong! Your score is still {}.\n" .format(score))
                 continuing = False
             else:
-                #while answer not in question.answer or answer not in question.test:-didn't work
+                # while answer not in question.answer or answer not in question.test:-didn't work
                 print("\nThat's not an option! Try again.\n")
-                break#-doesn't work but Idk what else to do :(
-                #answer = input(question.prompt)#-didn't work
+                    # doesn't work but Idk what else to do :(
+                # answer = input(question.prompt)#-didn't work
 
     print("Our quiz is done! Let's see what you got...\n")
     #Deciding what to tell them depending on their end score.
     if score >= 0 and score <= 4: 
         print("You got " + str(score) + "/12 points. Well, I guess VeggieTales isn’t everyone’s cup of tea.\n") 
     elif score > 4 and score <= 7: 
-        print("You got " + str(score) + "/12 points. Maybe you'd still rather have a coffee?\n")
+        print("You got " + str(score) + "/12 points. Not bad!\n")
     else:
-        print("You got " + str(score) + "/12 points. This is your tea!.\n")
+        print("You got " + str(score) + "/12 points. This is your cup of tea!.\n")
 
     print("That’s all the time we have for today kids. Just remember, God made you special, and he loves you very much. Goodbye!\n") 
 
